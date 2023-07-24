@@ -1,6 +1,6 @@
 package chap1.improved;
 
-import chap1.initial.Audience;
+import chap1.improved.Audience;
 
 public class Theater { // 소극장 클래스
 
@@ -11,7 +11,8 @@ public class Theater { // 소극장 클래스
     }
 
     public void enter(Audience audience) {
-        ticketSeller.sellTo(audience); // -> sellTo 메서드를 호출하는 간단한 코드로 바뀐다.
+        ticketSeller.sellTo(audience);
+        // -> sellTo 메서드를 호출하는 간단한 코드로 바뀐다.
     }
 
     /*
