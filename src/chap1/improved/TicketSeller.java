@@ -11,7 +11,7 @@ public class TicketSeller {
     }
 
     public void sellTo(Audience audience) {
-        ticketOffice.plusAmount(audience.buy(ticketOffice.getTicket()));
+        ticketOffice.sellTicketTo(audience);
     }
 
     /*
@@ -28,5 +28,15 @@ public class TicketSeller {
 
         객체의 자율성을 높이는 방향으로 설계를 개선한 것이다.
         핵심은 객체 내부의 상태를 캡슐화하고 객체 간의 오직 메시지를 통해서만 상호작용하도록 만드는 것이다.
+
+        설계룰 어렵게 만드는 것은 의존성이다. 불필요한 의존성을 제거함으로써 객체의 결합도를 낮춰야 한다.
+        예제에서 결합도를 낮추기 위해 선택한 방법은 Theater가 몰라도 되는 세부사항을 Audience와 TicketSeller 내부로 감춰서 캡슐화 한 것이다.
+
+        불필요한 세부사항을 캡슐화하는 자율적인 객체들이 낮은 결합도와 높은 응집도를 가지고 협력하도록 최소한의 의존성만을 남기는 것이
+        훌륭한 객체지향 설계이다.
+
+        또한 TicketSeller는 TicketOffice의 자율권을 침해하였음으로 TicketOffice에 sellTicketTo 메서드를 추가하여 sellTo의 내부코드를
+        옮겨주었다.
+
      */
 }
