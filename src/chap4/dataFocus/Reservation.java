@@ -16,6 +16,9 @@ public class Reservation {
         this.audienceCount = audienceCount;
     }
 
+    public Reservation(Customer customer, chap4.improvedDataFocus.Screening screening, Money fee, int audienceCount) {
+    }
+
     public Customer getCustomer() {
         return customer;
     }
