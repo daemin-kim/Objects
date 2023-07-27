@@ -1,6 +1,5 @@
 package chap2.initial;
 
-import java.awt.event.MouseMotionAdapter;
 import java.math.BigDecimal;
 
 public class Money {
