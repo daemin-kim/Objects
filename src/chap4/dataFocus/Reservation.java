@@ -19,6 +19,9 @@ public class Reservation {
     public Reservation(Customer customer, chap4.improvedDataFocus.Screening screening, Money fee, int audienceCount) {
     }
 
+    public Reservation(Customer customer, chap4.responsibilityFocus.Screening screening, Money money, int audienceCount) {
+    }
+
     public Customer getCustomer() {
         return customer;
     }
