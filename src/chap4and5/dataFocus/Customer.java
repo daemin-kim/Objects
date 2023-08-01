@@ -1,4 +1,4 @@
-package chap4.dataFocus;
+package chap4and5.dataFocus;
 
 public class Customer {
 

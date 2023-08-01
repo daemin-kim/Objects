@@ -1,6 +1,6 @@
-package chap4.improvedDataFocus;
+package chap4and5.improvedDataFocus;
 
-import chap4.dataFocus.DiscountConditionType;
+import chap4and5.dataFocus.DiscountConditionType;
 
 import java.time.DayOfWeek;
 import java.time.LocalTime;

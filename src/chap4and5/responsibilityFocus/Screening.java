@@ -1,8 +1,8 @@
-package chap4.responsibilityFocus;
+package chap4and5.responsibilityFocus;
 
 import chap2.initial.Money;
-import chap4.dataFocus.Customer;
-import chap4.dataFocus.Reservation;
+import chap4and5.dataFocus.Customer;
+import chap4and5.dataFocus.Reservation;
 
 import java.time.LocalDateTime;
 

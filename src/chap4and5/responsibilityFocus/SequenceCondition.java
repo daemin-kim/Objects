@@ -1,4 +1,4 @@
-package chap4.responsibilityFocus;
+package chap4and5.responsibilityFocus;
 
 public class SequenceCondition implements DiscountCondition {
 

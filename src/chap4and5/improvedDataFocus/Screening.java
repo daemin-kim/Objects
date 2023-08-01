@@ -1,4 +1,4 @@
-package chap4.improvedDataFocus;
+package chap4and5.improvedDataFocus;
 
 import chap2.initial.Money;
 

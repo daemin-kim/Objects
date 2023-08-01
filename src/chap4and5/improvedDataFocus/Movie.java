@@ -1,8 +1,8 @@
-package chap4.improvedDataFocus;
+package chap4and5.improvedDataFocus;
 
 import chap2.initial.Money;
-import chap4.dataFocus.DiscountConditionType;
-import chap4.dataFocus.MovieType;
+import chap4and5.dataFocus.DiscountConditionType;
+import chap4and5.dataFocus.MovieType;
 
 import java.time.Duration;
 import java.time.LocalDateTime;

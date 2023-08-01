@@ -1,4 +1,4 @@
-package chap4.dataFocus;
+package chap4and5.dataFocus;
 
 import chap2.initial.Money;
 
@@ -16,10 +16,10 @@ public class Reservation {
         this.audienceCount = audienceCount;
     }
 
-    public Reservation(Customer customer, chap4.improvedDataFocus.Screening screening, Money fee, int audienceCount) {
+    public Reservation(Customer customer, chap4and5.improvedDataFocus.Screening screening, Money fee, int audienceCount) {
     }
 
-    public Reservation(Customer customer, chap4.responsibilityFocus.Screening screening, Money money, int audienceCount) {
+    public Reservation(Customer customer, chap4and5.responsibilityFocus.Screening screening, Money money, int audienceCount) {
     }
 
     public Customer getCustomer() {

@@ -1,6 +1,7 @@
-package chap4.responsibilityFocus;
+package chap4and5.dataFocus;
 
 public enum DiscountConditionType {
+
     SEQUENCE,
     PERIOD
 }
