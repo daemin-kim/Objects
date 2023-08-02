@@ -9,6 +9,6 @@ public class Theater { // 소극장 클래스
     }
 
     public void enter(Audience audience) {
-        ticketSeller.setTicket(audience);
+        ticketSeller.sellTo(audience);
     }
 }

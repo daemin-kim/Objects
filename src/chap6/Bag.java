@@ -34,7 +34,7 @@ public class Bag { // 가방 클래스
         this.amount += amount;
     }
 
-    public long setTicket(Ticket ticket) {
+    public long hold(Ticket ticket) {
         if (hasInvitation()) {
             this.ticket = ticket;
             return 0L;
