@@ -22,7 +22,7 @@ public class ReservationAgency {
         if (discountable) {
             return screening.getMovie().getFee()
                     .minus(calculateDiscountFee(screening.getMovie()).times(audienceCount));
-        };
+        }
         return screening.getMovie().getFee().times(audienceCount);
     }
 
