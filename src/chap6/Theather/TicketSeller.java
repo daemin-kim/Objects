@@ -1,4 +1,4 @@
-package chap6;
+package chap6.Theather;
 
 import chap1.initial.TicketOffice;
 
@@ -17,4 +17,3 @@ public class TicketSeller {
         ticketOffice.plusAmount(audience.buy(ticketOffice.getTicket()));
     }
 }
-

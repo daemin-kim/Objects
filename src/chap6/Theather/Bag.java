@@ -1,4 +1,4 @@
-package chap6;
+package chap6.Theather;
 
 import chap1.initial.Invitation;
 import chap1.initial.Ticket;

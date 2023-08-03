@@ -1,4 +1,4 @@
-package chap6;
+package chap6.Theather;
 
 public class Theater { // 소극장 클래스
 
