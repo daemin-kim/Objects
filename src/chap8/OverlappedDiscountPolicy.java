@@ -3,7 +3,6 @@ package chap8;
 import chap2.initial.DiscountPolicy;
 import chap2.initial.Money;
 import chap2.initial.Screening;
-import chap6.Theather.DiscountCondition;
 
 import java.util.ArrayList;
 import java.util.Arrays;
